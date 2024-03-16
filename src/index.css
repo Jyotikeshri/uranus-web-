@@ -3,3 +3,16 @@
   color: white;
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(30, 30, 30); /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 70); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners of the scrollbar handle */
+}
